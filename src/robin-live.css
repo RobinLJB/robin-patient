@@ -1,0 +1,240 @@
+.padding-none {
+	padding-top: 0px !important;
+	padding-right: 0px !important;
+	padding-bottom: 0px !important;
+	padding-left: 0px !important;
+}
+
+.padding-vertical-none {
+	padding-top: 0px !important;
+	padding-bottom: 0px !important;
+}
+
+.padding-xs {
+	padding-top: 6px !important;
+	padding-bottom: 6px !important;
+	padding-left: 6px !important;
+	padding-right: 6px !important;
+}
+
+.padding-sm {
+	padding-top: 10px !important;
+	padding-bottom: 10px !important;
+	padding-left: 10px !important;
+	padding-right: 10px !important;
+}
+
+.padding {
+	padding-top: 15px !important;
+	padding-right: 15px !important;
+	padding-bottom: 15px !important;
+	padding-left: 15px !important;
+}
+
+.margin-xs {
+	margin-top: 9px !important;
+	margin-right: 9px !important;
+	margin-bottom: 9px !important;
+	margin-left: 9px !important;
+}
+
+.margin {
+	margin: 15px !important;
+}
+
+.margin-top {
+	margin-top: 10px !important;
+}
+
+.margin-right {
+	margin-right: 5px !important;
+}
+
+.margint-top-negative {
+	margin-top: 2px !important;
+}
+
+.text-center {
+	text-align: center !important;
+}
+
+.text-left {
+	text-align: left !important;
+}
+
+h1,
+.h1 {
+	font-size: 2rem !important;
+}
+
+h2,
+.h2 {
+	font-size: 1.5rem !important;
+}
+
+h3,
+.h3 {
+	font-size: 1.25rem !important;
+}
+
+h6,
+.h6 {
+	font-size: .6rem !important;
+}
+
+.button.is-danger.is-outlined {
+	background-color: #FFFFFF;
+}
+
+.button.is-danger.is-outlined[disabled] {
+	background-color: #FFFFFF;
+}
+
+.button.is-info.is-outlined {
+	background-color: #FFFFFF;
+}
+
+.button.is-info.is-outlined[disabled] {
+	background-color: #FFFFFF;
+}
+
+.top{
+	position : fixed;
+	top :48px;
+	left : 0;
+	right : 0;
+}
+
+/*重写weui的样式*/
+
+.weui-tab {
+	position: absolute;
+	bottom: 0;
+	margin-top: 25px;
+	top: 35vh;
+	width: 100%;
+	height: auto;
+}
+
+.weui-tab__panel {
+	background-color: #F7F7FA !important;
+	width: 100%;
+}
+.weui-navbar + .weui-tab__panel {
+    padding-top: 35px;
+    padding-bottom: 0;
+}
+
+.navbar {
+	background-color: white;
+	min-height: 2.25rem;
+	position: relative;
+}
+
+.weui-navbar__item.weui-bar__item_on.is-primary {
+	background-color: #00b89c !important;
+}
+
+.weui-media-box__title {
+	width: 60vw;
+	font-weight: 400;
+	font-size: 17px;
+	/* width: auto; */
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	word-wrap: normal;
+	word-wrap: break-word;
+	word-break: break-all;
+}
+
+.weui-tab__bd-item {
+	background-color: #F7F7FA !important;
+	height: 100%;
+}
+
+.weui-vcode-btn {
+	color: #00d1b2 !important;
+}
+
+a.weui-vcode-btn:hover {
+	color: #00c4a7 !important;
+}
+
+.weui-vcode-btn.OwO .OwO-logo {
+	color: #00d1b2 !important;
+}
+
+a.weui-vcode-btn:hover.OwO .OwO-logo {
+	color: #00c4a7 !important;
+}
+
+.weui-media-box_appmsg .weui-media-box__thumb {
+    vertical-align: middle;
+}
+
+.weui-search-bar__form:after {
+    border: 1px solid #00d1b2;
+}
+
+.weui-search-bar__cancel-btn {
+    color: #00d1b2;
+}
+
+/*重写OwO的样式*/
+
+.OwO .OwO-logo {
+    position: relative;
+    display: inline-block;
+    color: #888;
+    border-width: 0px ;
+    border-radius: 4px;
+    font-size: inherit;
+    padding: 2px 5px;
+    cursor: pointer;
+    height: inherit;
+    box-sizing: border-box;
+    z-index: 2;
+    line-height: 16px;
+}
+
+.OwO.OwO-up .OwO-body {
+	bottom: 45px !important;
+}
+
+.OwO .OwO-body .OwO-bar {
+	height: 33px !important;
+}
+
+.OwO.OwO-up.OwO-open .OwO-logo {
+	border-radius: 4px 4px 4px 4px !important;
+	border: 0px solid #ddd !important;
+}
+
+.OwO .OwO-body .OwO-items {
+    max-height: 30vh !important;
+}
+
+/*bulma*/
+.media-content {
+    flex-grow: 0;
+		overflow: visible;
+}
+
+/*移动动画*/
+.marquee {
+		display: block;
+    width: 100vw;
+    overflow: hidden;
+    -webkit-animation: marquee 15s linear infinite;
+    animation: marquee 15s linear infinite;
+}
+
+@keyframes marquee {
+    0% {
+        transform: translatex(100%);
+    }
+    100% {
+        transform: translatex(-100%);
+    }
+}
