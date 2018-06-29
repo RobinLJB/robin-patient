@@ -55,13 +55,13 @@ export default class MediaPlay extends React.Component {
         Store.dispatch({type: 'ALL', CLICKNAV: idx});
       }
       }>
-        <NavBarItem className="hero is-primary padding-xs text-center" label="留言">
+        <NavBarItem className="hero is-primary padding-xs text-center" label="边学边说">
           <MessageArea channelId={id}/>
         </NavBarItem>
         <NavBarItem className="hero is-primary padding-xs text-center" label="直播讲义">
           <Subject title={name} subject={subject}/>
         </NavBarItem>
-        <NavBarItem className="hero is-primary padding-xs text-center" label="培训咨询">
+        <NavBarItem className="hero is-primary padding-xs text-center" label="助你成功">
           <Detail/>
         </NavBarItem>
       </Tab>
