@@ -135,7 +135,7 @@ class Main extends React.Component {
         'width' : '100vw',
         'overflow' : 'hidden'
       }}>
-        <span className="marquee" >助你2018笔试顺利过关：张老师 微信13798197298</span>
+        <span className="marquee" >更多口腔类行业咨询请关注微信公众号: 享点医</span>
       </div>
       <Tab type="navbar" onChange={idx => {
         Store.dispatch({type: 'ALL', CLICKNAV: idx});
